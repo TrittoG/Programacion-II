@@ -1,0 +1,7 @@
+C:\Users\alumno\Desktop\Tritto\ejercicio 7\ejercicio 7\bin\Debug\ejercicio 7.exe.config
+C:\Users\alumno\Desktop\Tritto\ejercicio 7\ejercicio 7\bin\Debug\ejercicio 7.exe
+C:\Users\alumno\Desktop\Tritto\ejercicio 7\ejercicio 7\bin\Debug\ejercicio 7.pdb
+C:\Users\alumno\Desktop\Tritto\ejercicio 7\ejercicio 7\obj\Debug\ejercicio 7.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Tritto\ejercicio 7\ejercicio 7\obj\Debug\ejercicio 7.exe
+C:\Users\alumno\Desktop\Tritto\ejercicio 7\ejercicio 7\obj\Debug\ejercicio 7.pdb
+C:\Users\alumno\Desktop\Tritto\ejercicio 7\ejercicio 7\obj\Debug\ejercicio 7.csprojAssemblyReference.cache
