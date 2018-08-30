@@ -1,0 +1,7 @@
+D:\GGT\Programacion-II\ejercicio16\ejercicio16\bin\Debug\ejercicio16.exe.config
+D:\GGT\Programacion-II\ejercicio16\ejercicio16\bin\Debug\ejercicio16.exe
+D:\GGT\Programacion-II\ejercicio16\ejercicio16\bin\Debug\ejercicio16.pdb
+D:\GGT\Programacion-II\ejercicio16\ejercicio16\obj\Debug\ejercicio16.csprojAssemblyReference.cache
+D:\GGT\Programacion-II\ejercicio16\ejercicio16\obj\Debug\ejercicio16.csproj.CoreCompileInputs.cache
+D:\GGT\Programacion-II\ejercicio16\ejercicio16\obj\Debug\ejercicio16.exe
+D:\GGT\Programacion-II\ejercicio16\ejercicio16\obj\Debug\ejercicio16.pdb

@@ -1,0 +1,7 @@
+D:\GGT\Programacion-II\ejercicio15\ejercicio15\bin\Debug\ejercicio15.exe.config
+D:\GGT\Programacion-II\ejercicio15\ejercicio15\bin\Debug\ejercicio15.exe
+D:\GGT\Programacion-II\ejercicio15\ejercicio15\bin\Debug\ejercicio15.pdb
+D:\GGT\Programacion-II\ejercicio15\ejercicio15\obj\Debug\ejercicio15.csprojAssemblyReference.cache
+D:\GGT\Programacion-II\ejercicio15\ejercicio15\obj\Debug\ejercicio15.csproj.CoreCompileInputs.cache
+D:\GGT\Programacion-II\ejercicio15\ejercicio15\obj\Debug\ejercicio15.exe
+D:\GGT\Programacion-II\ejercicio15\ejercicio15\obj\Debug\ejercicio15.pdb

@@ -10,18 +10,43 @@ namespace ejercicio13
     {
         public static string DecimalBinario(double doble)
         {
-            int cociente;
+            string binario = "";
 
-            while(cociente != 1)
+            while(doble > 0)
             {
+                
+                
+                if(doble % 2 == 1)
+                {
+                    binario = '1' + binario;
+                }
+                else
+                {
+                    binario = '0' + binario ;
+                }
+
+                doble = (int)doble / 2;
 
             }
-            return "asd";
+            return binario;
         }
 
         public static double BinarioDecimal(string binario)
         {
-            return 1;
+            double retorno = 0;
+            int i,j = binario.Length;
+
+            for (i = 0; i < binario.Length ; i++)
+            {
+                j--;
+                if (binario[i] == '1')
+                {
+                    retorno = retorno + Math.Pow(2, j);
+                }
+                
+            }
+
+            return retorno;
         }
     }
 }
