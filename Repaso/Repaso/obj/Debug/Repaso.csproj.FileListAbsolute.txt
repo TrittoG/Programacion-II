@@ -1,0 +1,7 @@
+D:\VisualStudio\Repaso\Repaso\bin\Debug\Repaso.exe.config
+D:\VisualStudio\Repaso\Repaso\bin\Debug\Repaso.exe
+D:\VisualStudio\Repaso\Repaso\bin\Debug\Repaso.pdb
+D:\VisualStudio\Repaso\Repaso\obj\Debug\Repaso.csprojAssemblyReference.cache
+D:\VisualStudio\Repaso\Repaso\obj\Debug\Repaso.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Repaso\Repaso\obj\Debug\Repaso.exe
+D:\VisualStudio\Repaso\Repaso\obj\Debug\Repaso.pdb
