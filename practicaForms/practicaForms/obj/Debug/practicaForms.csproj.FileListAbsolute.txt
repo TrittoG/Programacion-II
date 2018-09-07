@@ -1,0 +1,10 @@
+D:\GGT\Programacion-II\practicaForms\practicaForms\bin\Debug\practicaForms.exe.config
+D:\GGT\Programacion-II\practicaForms\practicaForms\bin\Debug\practicaForms.exe
+D:\GGT\Programacion-II\practicaForms\practicaForms\bin\Debug\practicaForms.pdb
+D:\GGT\Programacion-II\practicaForms\practicaForms\obj\Debug\practicaForms.csprojAssemblyReference.cache
+D:\GGT\Programacion-II\practicaForms\practicaForms\obj\Debug\practicaForms.Form1.resources
+D:\GGT\Programacion-II\practicaForms\practicaForms\obj\Debug\practicaForms.Properties.Resources.resources
+D:\GGT\Programacion-II\practicaForms\practicaForms\obj\Debug\practicaForms.csproj.GenerateResource.cache
+D:\GGT\Programacion-II\practicaForms\practicaForms\obj\Debug\practicaForms.csproj.CoreCompileInputs.cache
+D:\GGT\Programacion-II\practicaForms\practicaForms\obj\Debug\practicaForms.exe
+D:\GGT\Programacion-II\practicaForms\practicaForms\obj\Debug\practicaForms.pdb
