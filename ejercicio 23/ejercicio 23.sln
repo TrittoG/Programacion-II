@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio 23", "ejercicio 23\ejercicio 23.csproj", "{EB759087-55B5-4AC0-9267-DE6A703296A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monedas", "Monedas\Monedas.csproj", "{18877E4B-3116-412D-B44B-DE5EA3118E8D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB759087-55B5-4AC0-9267-DE6A703296A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB759087-55B5-4AC0-9267-DE6A703296A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB759087-55B5-4AC0-9267-DE6A703296A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB759087-55B5-4AC0-9267-DE6A703296A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18877E4B-3116-412D-B44B-DE5EA3118E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18877E4B-3116-412D-B44B-DE5EA3118E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18877E4B-3116-412D-B44B-DE5EA3118E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18877E4B-3116-412D-B44B-DE5EA3118E8D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AD9AF37-48F8-4491-BF05-82B216C11B4E}
+	EndGlobalSection
+EndGlobal

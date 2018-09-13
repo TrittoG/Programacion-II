@@ -1,7 +1,0 @@
-D:\GGT\Programacion-II\ejercicio13\ejercicio13\bin\Debug\ejercicio13.exe.config
-D:\GGT\Programacion-II\ejercicio13\ejercicio13\bin\Debug\ejercicio13.exe
-D:\GGT\Programacion-II\ejercicio13\ejercicio13\bin\Debug\ejercicio13.pdb
-D:\GGT\Programacion-II\ejercicio13\ejercicio13\obj\Debug\ejercicio13.csprojAssemblyReference.cache
-D:\GGT\Programacion-II\ejercicio13\ejercicio13\obj\Debug\ejercicio13.csproj.CoreCompileInputs.cache
-D:\GGT\Programacion-II\ejercicio13\ejercicio13\obj\Debug\ejercicio13.exe
-D:\GGT\Programacion-II\ejercicio13\ejercicio13\obj\Debug\ejercicio13.pdb

@@ -1,7 +1,0 @@
-D:\VisualStudio\ejercicio19\ejercicio19\bin\Debug\ejercicio19.exe.config
-D:\VisualStudio\ejercicio19\ejercicio19\bin\Debug\ejercicio19.exe
-D:\VisualStudio\ejercicio19\ejercicio19\bin\Debug\ejercicio19.pdb
-D:\VisualStudio\ejercicio19\ejercicio19\obj\Debug\ejercicio19.csprojAssemblyReference.cache
-D:\VisualStudio\ejercicio19\ejercicio19\obj\Debug\ejercicio19.csproj.CoreCompileInputs.cache
-D:\VisualStudio\ejercicio19\ejercicio19\obj\Debug\ejercicio19.exe
-D:\VisualStudio\ejercicio19\ejercicio19\obj\Debug\ejercicio19.pdb

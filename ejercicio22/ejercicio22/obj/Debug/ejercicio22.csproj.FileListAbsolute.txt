@@ -1,7 +1,0 @@
-D:\VisualStudio\ejercicio22\ejercicio22\obj\Debug\ejercicio22.csprojAssemblyReference.cache
-D:\VisualStudio\ejercicio22\ejercicio22\obj\Debug\ejercicio22.csproj.CoreCompileInputs.cache
-D:\VisualStudio\ejercicio22\ejercicio22\bin\Debug\ejercicio22.exe.config
-D:\VisualStudio\ejercicio22\ejercicio22\bin\Debug\ejercicio22.exe
-D:\VisualStudio\ejercicio22\ejercicio22\bin\Debug\ejercicio22.pdb
-D:\VisualStudio\ejercicio22\ejercicio22\obj\Debug\ejercicio22.exe
-D:\VisualStudio\ejercicio22\ejercicio22\obj\Debug\ejercicio22.pdb

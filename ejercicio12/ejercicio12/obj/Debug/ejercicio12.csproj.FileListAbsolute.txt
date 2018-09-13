@@ -1,6 +1,0 @@
-D:\VisualStudio\ejercicio12\ejercicio12\bin\Debug\ejercicio12.exe.config
-D:\VisualStudio\ejercicio12\ejercicio12\bin\Debug\ejercicio12.exe
-D:\VisualStudio\ejercicio12\ejercicio12\bin\Debug\ejercicio12.pdb
-D:\VisualStudio\ejercicio12\ejercicio12\obj\Debug\ejercicio12.csproj.CoreCompileInputs.cache
-D:\VisualStudio\ejercicio12\ejercicio12\obj\Debug\ejercicio12.exe
-D:\VisualStudio\ejercicio12\ejercicio12\obj\Debug\ejercicio12.pdb
