@@ -53,30 +53,123 @@ namespace ejercicio_27
 
             Console.ReadKey();
 
+
+
+
+
+
+            Console.Clear();
+
+
+
+
+
             Console.WriteLine("-------------PILAS----------------");
 
-            Stack<int> stackLista = new Stack<int>();
+            Stack<int> stackPila = new Stack<int>();
 
             for (i = 0; i < 20; i++)
             {
-                stackLista.Push(aleatorio.Next(-100, 100));
-                Console.WriteLine("{0}", stackLista.ElementAt<int>(i));
+                stackPila.Push(aleatorio.Next(-100, 100));
+            }
+
+            foreach (int s in stackPila)
+            {
+                Console.WriteLine(s);
             }
 
 
+            arrayInt = stackPila.ToList<int>();
+
+            arrayInt.Sort(Ordenar);
+
+            stackPila.Clear();
+
+            Console.WriteLine("POSITIVOS ORDENADOS");
+
+            foreach(int s in arrayInt)
+            {
+                
+                stackPila.Push(s);
+                if(s > 0)
+                    Console.WriteLine(stackPila.ElementAt<int>(0));
+            }
+
+            Console.WriteLine("NEGATIVOS ORDENADOS");
+
+            arrayInt = stackPila.ToList<int>();
+
+            arrayInt.Sort(OtroOrdenar);
+
+            stackPila.Clear();
+
+            foreach (int s in arrayInt)
+            {
+                stackPila.Push(s);
+                if (s < 0)
+                    Console.WriteLine(stackPila.ElementAt<int>(0));
+            }
+
+            Console.WriteLine("COLAS-----------");
+
+            Queue<int> cola = new Queue<int>();
+
+            for(i= 0; i < 20; i++ )
+            {
+                cola.Enqueue(aleatorio.Next(-100, 100));
+                Console.WriteLine(cola.ElementAt<int>(i));
+            }
+
+            arrayInt = cola.ToList<int>();
+
+            arrayInt.Sort(Ordenar);
+
+            cola.Clear();
+
+            Console.WriteLine("-ordenados positivos");
+            int j = 0;
+            foreach (int s in arrayInt)
+            {
+                
+                cola.Enqueue(s);
+                if(s>0)
+                    Console.WriteLine(cola.ElementAt<int>(j));
+                j++;
+            }
+
+
+            arrayInt = cola.ToList<int>();
+
+            arrayInt.Sort(OtroOrdenar);
+
+            cola.Clear();
+
+            Console.WriteLine("-ordenados NEGATIVOS");
+            j = 0;
+            foreach (int s in arrayInt)
+            {
+
+                cola.Enqueue(s);
+                if (s < 0)
+                    Console.WriteLine(cola.ElementAt<int>(j));
+                j++;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             Console.ReadKey();
-
-
-
-
-
-
-
-
-
-
-
-
 
         }
 
