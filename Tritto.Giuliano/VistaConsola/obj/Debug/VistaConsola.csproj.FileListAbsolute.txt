@@ -1,0 +1,13 @@
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\obj\Debug\VistaConsola.csprojAssemblyReference.cache
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\obj\Debug\VistaConsola.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\VistaConsola.exe.config
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\VistaConsola.exe
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\VistaConsola.pdb
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\Entidades.dll
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\VistaForm.exe
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\Entidades.pdb
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\VistaForm.pdb
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\bin\Debug\VistaForm.exe.config
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\obj\Debug\VistaConsola.csproj.CopyComplete
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\obj\Debug\VistaConsola.exe
+D:\VisualStudio\Tritto.Giuliano\VistaConsola\obj\Debug\VistaConsola.pdb

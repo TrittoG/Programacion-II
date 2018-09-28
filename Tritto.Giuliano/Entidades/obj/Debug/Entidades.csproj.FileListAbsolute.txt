@@ -1,0 +1,6 @@
+D:\VisualStudio\Tritto.Giuliano\Entidades\bin\Debug\Entidades.dll
+D:\VisualStudio\Tritto.Giuliano\Entidades\bin\Debug\Entidades.pdb
+D:\VisualStudio\Tritto.Giuliano\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\Tritto.Giuliano\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Tritto.Giuliano\Entidades\obj\Debug\Entidades.dll
+D:\VisualStudio\Tritto.Giuliano\Entidades\obj\Debug\Entidades.pdb
