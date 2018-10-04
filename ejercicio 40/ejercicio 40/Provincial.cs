@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ejercicio_40
 {
-    enum Franja
+    public enum Franja
     {
         Franja_1,
         Franja_2,
         Franja_3
     }
 
-     class Provincial : Llamada
+     public class Provincial : Llamada
     {
         protected Franja franjaHoraria;
 

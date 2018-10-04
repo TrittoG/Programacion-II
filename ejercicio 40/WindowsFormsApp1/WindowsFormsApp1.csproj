@@ -45,6 +45,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FacturacionLocal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturacionLocal.Designer.cs">
+      <DependentUpon>FacturacionLocal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FacturacionTotal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FacturacionTotal.Designer.cs">
+      <DependentUpon>FacturacionTotal.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +71,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FacturacionLocal.resx">
+      <DependentUpon>FacturacionLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FacturacionTotal.resx">
+      <DependentUpon>FacturacionTotal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
