@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejercicio 52", "ejercicio 52\ejercicio 52.csproj", "{E32BD3C7-6C98-4FBD-A68D-E0E9E7720027}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "consolita", "consolita\consolita.csproj", "{EB7C94FB-E231-461B-A00F-76A84F63AF7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E32BD3C7-6C98-4FBD-A68D-E0E9E7720027}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E32BD3C7-6C98-4FBD-A68D-E0E9E7720027}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E32BD3C7-6C98-4FBD-A68D-E0E9E7720027}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7C94FB-E231-461B-A00F-76A84F63AF7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7C94FB-E231-461B-A00F-76A84F63AF7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7C94FB-E231-461B-A00F-76A84F63AF7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7C94FB-E231-461B-A00F-76A84F63AF7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
