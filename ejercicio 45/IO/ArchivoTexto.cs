@@ -16,6 +16,23 @@ namespace IO
       st.Close();
     }
 
+    public static string Leer(string path)
+        {
+            try
+            {
+                StreamReader st = new StreamReader(path);
+
+                string retorno = st.ReadToEnd();
+                st.Close();
+                return retorno;
+
+            }
+            catch(FileNotFoundException e)
+            {
+                return e.Message;
+            }
+        }
+
 
   }
 }
