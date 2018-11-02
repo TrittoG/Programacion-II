@@ -1,0 +1,5 @@
+cadena de coneccion
+
+using System.Data.SqlClient;
+
+sqlConection conezion = new sql;

@@ -10,13 +10,28 @@ namespace ejercicio_57
     {
         static void Main(string[] args)
         {
-            Person p = new Person("Giuliano", "Tritto");
+            try
+            {
+                Person p = new Person("Giuliano", "Tritto");
 
-            Person.Guardar(p,"archivoBinario.xml");
+                Person.Guardar(p, "archivo.xml");
 
-            Person q = Person.Leer("archivoBinario.xml");
+                Person q;
+                q = Person.Leer("archivo.xml");
 
-            Console.WriteLine(q.Nombre);
+                Console.WriteLine(q.Nombre);
+                Console.WriteLine(q.ToString());
+
+            }
+            catch(InvalidOperationException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            catch(ArgumentException e)
+            {
+                Console.WriteLine(e.Message);
+
+            }
 
             Console.ReadKey();
 
