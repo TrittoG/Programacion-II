@@ -7,7 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Threading; 
+using System.Threading;
+using ejercicio_67;
 
 namespace ejercicio_63
 {
@@ -18,7 +19,7 @@ namespace ejercicio_63
         public Form1()
         {
             InitializeComponent();
-            t = new Thread(MetodoTimer);
+           // t = new Thread(MetodoTimer);
             
         }
 
@@ -29,7 +30,13 @@ namespace ejercicio_63
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            Temporizador t = new Temporizador();
+            t.Intervalo = 1000;
+
+            t.EventoTiempo += MetodoTimer;
+
+            t.Activo = true;
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -39,41 +46,35 @@ namespace ejercicio_63
 
         private void MetodoTimer()
         {
-            while(true)
+
+            if (this.label1.InvokeRequired)
             {
-                Thread.Sleep(1000);
-                if (this.label1.InvokeRequired)
-                {
-                    this.label1.BeginInvoke((MethodInvoker)delegate ()
-                    {
-                        label1.Text = Hora.AsignarHora().ToString();
-                        label1.Refresh();
-                    }
-                    );
-                }
-                else
+                this.label1.BeginInvoke((MethodInvoker)delegate ()
                 {
                     label1.Text = Hora.AsignarHora().ToString();
                     label1.Refresh();
                 }
-
-
-
-                
+                );
             }
+            else
+            {
+                label1.Text = Hora.AsignarHora().ToString();
+                label1.Refresh();
+            }
+
         }
 
         private void Form1_Shown(object sender, EventArgs e)
         {
-            t.Start();
+            //t.Start();
         }
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if(t.IsAlive)
-            {
-                t.Abort();
-            }
+            //if(t.IsAlive)
+            //{
+            //    //t.Abort();
+            //}
         }
     }
 }

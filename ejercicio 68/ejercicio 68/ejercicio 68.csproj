@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{37195C0F-8456-4AE9-9734-A07410DF8520}</ProjectGuid>
+    <ProjectGuid>{9B44153A-082F-476A-9B4F-DCD67F3396DB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ejercicio_63</RootNamespace>
-    <AssemblyName>ejercicio 63</AssemblyName>
+    <RootNamespace>ejercicio_68</RootNamespace>
+    <AssemblyName>ejercicio 68</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -51,7 +51,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Hora.cs" />
+    <Compile Include="Persona.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -78,12 +78,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ejercicio 67\ejercicio 67\ejercicio 67.csproj">
-      <Project>{adebc7ae-4005-4c3a-830b-95a2593a5d60}</Project>
-      <Name>ejercicio 67</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
