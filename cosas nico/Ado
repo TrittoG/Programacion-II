@@ -1,0 +1,37 @@
+Nota: discos vdi
+
+fdisk -l /dev/"Nombre del disco" para listarlos y ver como estan
+
+Abrimos panel de particion y n , p, enter, enter, +30MB, n, p, 2, enter, enter.
+Cambiamos el formato de la particion, t, 2, 8e(formato). 
+W para guardar y p para ver los cambvios,
+
+Para hacer lo mismo al otro disco, fdisk -l /dev/"nombre del disco ya hecho" /dev/"Segundo disco"
+
+Para crear los physical volume: pvcreate /dev/sdb1 /dev/sdb2 /dev/sdc1 /dev/sdc2   // sdb= disco1, sdc = disco 2
+
+Para ver la ingo de los physical volume: pvs y pvdisplay
+
+Para crear el volume Groups: vgcreate vg01 /dev/sdb1 vgcreate vg02 /dev/sdc1  ahi creamos el grupo uno que contiene a sdb1 y al grupo
+dos que contiene a sdc1, para velos usamos los comandos: vgs, vgdisplay.
+
+Ahora creamos el logical volume, lvcreate -L +10MB -n lvwww vg01
+                                 lvcreate -L +100&FREE -n lvdb vg02
+                                 
+Para verlo usamos los comandos, pvs, vgs, lvs.
+
+Ahora formateamos las partes logicas en ext4: mkfs.ext4 /dev/vg01/lvwww
+                                              mkfs.ext4 /dev/vg02/lvdb
+                                              
+Realizamos los puntos de montaje con: mkdir /www /db
+                                      mount /dev/vg01/lvwwww /www
+                                      mount /dev/vg02/lvd /db
+Verificamos espacions con vf -h
+Para que sea permanente tenemos que moficiar el archivo /etc/fstab con el nano o vi
+
+
+
+
+
+
+
